@@ -116,11 +116,13 @@ caixaDeInputs.appendChild(inputNota3);
 const btnCalcular = document.createElement("button");
 btnCalcular.textContent = "Calcular Média";
 btnCalcular.style.padding = "10px";
-btnCalcular.style.marginTop = "20px";
+btnCalcular.style.marginTop = "15px";
 btnCalcular.style.backgroundColor = "green";
 btnCalcular.style.color = "white";
 btnCalcular.style.border = "none";
 btnCalcular.style.cursor = "pointer";
+btnCalcular.style.width = "300px";
+
 
 btnCalcular.addEventListener("click", calcularMedia);
 
@@ -129,6 +131,7 @@ caixaDeInputs.appendChild(btnCalcular);
 const resultadoMedia = document.createElement("div");
 resultadoMedia.style.marginTop = "20px";
 resultadoMedia.style.color = "black";
+resultadoMedia.style.fontSize = "25px"
 
 centro.appendChild(resultadoMedia);
 
