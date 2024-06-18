@@ -1,6 +1,4 @@
 const body = document.querySelector("body");
-body.style.margin = "0";
-body.style.padding = "0";
 body.style.backgroundColor = "white";
 body.style.width = "100vw";
 body.style.height = "100vh";
@@ -8,6 +6,8 @@ body.style.display = "flex";
 body.style.flexDirection = "column";
 body.style.alignItems = "center";
 body.style.justifyContent = "space-between";
+body.style.margin = "0";
+body.style.padding = "0";
 
 const nav = document.createElement("nav");
 nav.style.backgroundColor = "blue";
